@@ -8,7 +8,7 @@ Basic concepts covered included:
   - search box - uses App's handleChange function to filter monsters according to changes typed
   - card list - maps (filtered) state monsters into cards
   - card - provides the physical layout for each individual monster card:
-    - uses monster id to generate a monster image
+    - uses monster id to generate a monster image at 'https://robohash.org/'
     - uses monster name as a header
     - uses monster email as a paragraph
 
